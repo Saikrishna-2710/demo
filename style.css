@@ -1,0 +1,143 @@
+h1{
+    background-color: pink;
+    border: 2px dotted;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 200px;
+    width: 200px;
+    align-items: start;
+    justify-content: space-between;
+
+}
+.box-1{
+    display: flex;
+    background-color: blue;
+
+}
+.box-2{
+    display: flex;
+    background-color: green ;
+}
+.box-3{
+    display: flex;
+    background-color: pink;
+}
+.box-4{
+    display: flex;
+    background-color: red;
+}
+.box-5{
+    display: flex;
+    background-color: yellow;
+}
+/*.container{ 
+    margin-top: 100px;
+    border-radius: 10px;
+    box-sizing: content-box;
+   
+    border: solid cyan;
+    border-radius: 10px;
+
+} */
+.page{
+    box-sizing: content-box;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.shape-container{
+    width: 500px;
+    height: 600px;
+    background-color: blue;
+    display:grid;
+    grid-template-columns:200px 150px ;
+    align-content: center;
+    justify-content: center;
+}
+.shape-1{
+    box-sizing: content-box;
+    background-color: rgb(193, 196, 196);
+    width: 100px;
+    height: 100px;
+    
+
+}
+
+.shape-1{
+    box-sizing: content-box;
+    background-color: rgb(99, 167, 158);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.shape-2{
+    box-sizing: content-box;
+    background-color: rgb(57, 12, 179);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.shape-3{
+    box-sizing: content-box;
+    background-color: rgb(0, 255, 98);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.shape-4{
+    box-sizing: content-box;
+    background-color: rgb(25, 0, 255);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.shape-5{
+    box-sizing: content-box;
+    background-color: rgb(15, 17, 17);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.shape-6{
+    box-sizing: content-box;
+    background-color: rgb(255, 153, 0);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.shape-7{
+    box-sizing: content-box;
+    background-color: rgb(166, 167, 167);
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.shape-8{
+    box-sizing: content-box;
+    background-color: rgb(255, 0, 191);
+    width: 100px;
+    height: 100px;
+
+
+}
